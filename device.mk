@@ -30,7 +30,7 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/configs/overlays/overlay
 
 # Audio
 PRODUCT_PACKAGES += \
