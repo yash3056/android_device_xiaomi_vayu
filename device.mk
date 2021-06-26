@@ -28,10 +28,6 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 
-# Properties
-include $(LOCAL_PATH)/product_prop.mk
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
